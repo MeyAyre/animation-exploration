@@ -11,23 +11,25 @@ section:nth-of-type(2n){background-color:#eee;}
  #wrapper>div{
     height:100%;
     background-color:green;
-    animation-name:loading;
+    animation-name: loading;
+    animation-duration: 7s;
     }
+
 /* Animation */
   @keyframes loading {
-    from {  }
-    to   {  }
+    from { width: 0%;}
+    to   { width: 100%;}
     }
 /* **************************************** */
-/* Progress Circle Animation using CSS only */ 
+/* Progress Circle Animation using CSS only */
 /*         Add jsFiddle CSS code here       */
 
 
 /* ***************************************** */
-/* Progress Circle Animation using JS/jQuery */ 
+/* Progress Circle Animation using JS/jQuery */
 /*         Add jsFiddle CSS code here        */
 
 
 /* ****************************************** */
-/* Progress Circle Animation w/jQuery Library */ 
+/* Progress Circle Animation w/jQuery Library */
 /*         Add jsFiddle CSS code here         */
